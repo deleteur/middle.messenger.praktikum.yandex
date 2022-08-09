@@ -1,0 +1,20 @@
+<div class={{s.wrapper}}>
+    {{> goBack type='button'}}
+    <main class={{s.main}}>
+        <div class={{s.content}}>
+            <div class={{s.avatar}}>
+                <img src="https://t4.ftcdn.net/jpg/04/10/43/77/360_F_410437733_hdq4Q3QOH9uwh0mcqAhRFzOKfrCR24Ta.jpg">
+            </div>
+            <h2 class={{s.name}}>{{user.name}}</h2>
+            <ul class={{s.data}}>
+                {{> profileRow description='Почта' value=user.email}}
+                {{> profileRow description='Логин' value=user.login}}
+                {{> profileRow description='Имя' value=user.first_name}}
+                {{> profileRow description='Фамилия' value=user.second_name}}
+                {{> profileRow description='Имя в чате' value=user.display_name}}
+                {{> profileRow description='Телефон' value=user.phone}}
+            </ul>
+            {{> profileControls}}
+        </div>
+    </main>
+</div>
