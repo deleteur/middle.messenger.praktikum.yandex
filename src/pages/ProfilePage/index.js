@@ -4,7 +4,7 @@ import * as s from './ProfilePage.module.css';
 import btn from '../../components/Button';
 import goBack from './components/GoBack';
 import profileRow from './components/ProfileRow';
-import profileControls from './components/profileControls';
+import profileControls from './components/ProfileControls';
 
 const mockUser = {
     name: 'Иван',
