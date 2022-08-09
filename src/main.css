@@ -1,0 +1,21 @@
+:root {
+    --accent-blue: #3369F3;
+    --white: #FFF;
+    --black: #1E1E1E;
+    --light-grey: #FBFBFB;
+    --grey: #EFEFEF;
+    --border-gray: #EAEAEA;
+    --main-color: var(--accent-blue);
+    --main-text-color: var(--black);
+    --secondary-text-color: #999999;
+    --reverse-text-color: var(--white);
+    --main-bg-color: var(--light-grey);
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
