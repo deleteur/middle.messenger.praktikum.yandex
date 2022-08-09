@@ -1,0 +1,11 @@
+<main class={{s.main}}>
+    <div class={{s.wrapper}}>
+        <h1 class={{s.title}}>{{title}}</h1>
+        <form class={{s.form}} action="/chat" method="get">
+            <input type="text" name="login" placeholder='Логин'>
+            <input type="password" name="password" placeholder='Пароль'>
+            {{> button text='Авторизоваться' class=s.submit type="submit"}}
+        </form>
+        {{> link href="/signup" class=s.additionalBtn text="Нет аккаунта?"}}
+    </div>
+</main>
