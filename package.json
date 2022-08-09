@@ -1,0 +1,21 @@
+{
+  "browserslist": "> 1%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html --port 3000 --no-cache",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-css": "^2.7.0",
+    "parcel": "^2.6.2",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true,
+      "customMedia": true
+    },
+    "pseudoClasses": {
+      "focusVisible": "focus-ring"
+    }
+  }
+}
