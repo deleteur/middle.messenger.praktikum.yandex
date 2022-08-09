@@ -1,0 +1,9 @@
+<nav class={{s.wrapper}}>
+    <header class={{s.header}}>
+        {{> link text='Профиль >' class=s.profileLink href='/profile'}}
+        <input class={{s.search}} type="text" placeholder="Поиск">
+    </header>
+    <ul class={{s.list}}>
+        {{> chatListRow}}
+    </ul>
+</nav>
