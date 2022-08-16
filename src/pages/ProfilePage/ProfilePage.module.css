@@ -1,0 +1,92 @@
+@import "/src/main.css";
+
+.wrapper {
+   display: flex;
+   height: 100vh;
+}
+
+.aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    background-color: var(--main-bg-color);
+}
+
+.goBack {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border-radius: 50%;
+    border: 0;
+    background-color: var(--main-color);
+    line-height: 28px;
+    font-size: 16px;
+    color: var(--reverse-text-color);
+    cursor: pointer;
+}
+
+.main {
+    flex-grow: 2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 510px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: var(--grey);
+    overflow: hidden;
+
+    & img {
+        display: block;
+        width: 130px;
+        height: auto;
+    }
+}
+
+.name {
+    margin: 0;
+    margin-top: 21px;
+    margin-bottom: 60px;
+}
+
+.data {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #EAEAEA;
+
+    &:last-of-type {
+        border: none;
+    }
+}
+
+.value {
+    color: #999;
+}
+
+.controls {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.logout {
+    color: #f00;
+}
