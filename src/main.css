@@ -10,6 +10,7 @@
     --secondary-text-color: #999999;
     --reverse-text-color: var(--white);
     --main-bg-color: var(--light-grey);
+    --light-blue: #E4EDFD;
 }
 
 body {

@@ -1,5 +1,35 @@
 <main class={{s.wrapper}}>
-    <header>Вадим</header>
-    <div>Сообщения</div>
-    <div class={{s.footer}}><input type="text" name="" placeholder="Сообщение"></div>
+    <header class={{s.head}}>
+        <div class={{s.avatar}}></div>
+        <p class={{s.name}}>Вадим</p>
+        <button class={{s.menu}}>...</button>
+    </header>
+    <div class={{s.chat}}>
+        <div class={{s.myMsg}}>
+            <p class={{s.text}}>Круто!</p>
+            <div class={{s.service}}>
+                <span>vv</span>
+                <time>12:00</time>
+            </div>
+        </div>
+        <div class={{s.otherMsg}}>
+            <p class={{s.text}}>Привет! Смотри, тут всплыл интересный кусок лунной космической истории — НАСА в какой-то
+                момент попросила Хассельблад адаптировать модель SWC для полетов на Луну. Сейчас мы все знаем что
+                астронавты летали с моделью 500 EL — и к слову говоря, все тушки этих камер все еще находятся на
+                поверхности Луны, так как астронавты с собой забрали только кассеты с пленкой.
+
+                Хассельблад в итоге адаптировал SWC для космоса, но что-то пошло не так и на ракету они так никогда и не
+                попали. Всего их было произведено 25 штук, одну из них недавно продали на аукционе за 45000 евро.</p>
+            <div class={{s.service}}>
+                <time>12:00</time>
+            </div>
+        </div>
+    </div>
+    <div class={{s.footer}}>
+        <form class={{s.form}} action="">
+            <button class={{s.files}} type="button">$</button>
+            <input class={{s.textInput}} type="text" name="" placeholder="Сообщение">
+            <button class={{s.send}} type="submit">-></button>
+        </form>
+    </div>
 </main>
